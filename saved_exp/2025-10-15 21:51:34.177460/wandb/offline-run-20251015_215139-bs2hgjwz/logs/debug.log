@@ -1,0 +1,22 @@
+2025-10-15 21:51:39,871 INFO    MainThread:2322264 [wandb_setup.py:_flush():76] Configure stats pid to 2322264
+2025-10-15 21:51:39,871 INFO    MainThread:2322264 [wandb_setup.py:_flush():76] Loading settings from /home/chenguanwen/.config/wandb/settings
+2025-10-15 21:51:39,871 INFO    MainThread:2322264 [wandb_setup.py:_flush():76] Loading settings from /mnt/Data/cgw/CGG/wandb/settings
+2025-10-15 21:51:39,871 INFO    MainThread:2322264 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'mode': 'dryrun'}
+2025-10-15 21:51:39,871 INFO    MainThread:2322264 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-10-15 21:51:39,871 INFO    MainThread:2322264 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': '/mnt/Data/cgw/CGG/main.py'}
+2025-10-15 21:51:39,871 INFO    MainThread:2322264 [wandb_init.py:_log_setup():506] Logging user logs to ./saved_exp/2025-10-15 21:51:34.177460/wandb/offline-run-20251015_215139-bs2hgjwz/logs/debug.log
+2025-10-15 21:51:39,872 INFO    MainThread:2322264 [wandb_init.py:_log_setup():507] Logging internal logs to ./saved_exp/2025-10-15 21:51:34.177460/wandb/offline-run-20251015_215139-bs2hgjwz/logs/debug-internal.log
+2025-10-15 21:51:39,872 INFO    MainThread:2322264 [wandb_init.py:init():546] calling init triggers
+2025-10-15 21:51:39,872 INFO    MainThread:2322264 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2025-10-15 21:51:39,872 INFO    MainThread:2322264 [wandb_init.py:init():602] starting backend
+2025-10-15 21:51:39,872 INFO    MainThread:2322264 [wandb_init.py:init():606] setting up manager
+2025-10-15 21:51:39,876 INFO    MainThread:2322264 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-10-15 21:51:39,879 INFO    MainThread:2322264 [wandb_init.py:init():613] backend started and connected
+2025-10-15 21:51:39,884 INFO    MainThread:2322264 [wandb_init.py:init():701] updated telemetry
+2025-10-15 21:51:39,886 INFO    MainThread:2322264 [wandb_init.py:init():789] starting run threads in backend
+2025-10-15 21:51:45,105 INFO    MainThread:2322264 [wandb_run.py:_console_start():2114] atexit reg
+2025-10-15 21:51:45,106 INFO    MainThread:2322264 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2025-10-15 21:51:45,106 INFO    MainThread:2322264 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2025-10-15 21:51:45,106 INFO    MainThread:2322264 [wandb_run.py:_redirect():2059] Redirects installed.
+2025-10-15 21:51:45,108 INFO    MainThread:2322264 [wandb_init.py:init():831] run started, returning control to user process
